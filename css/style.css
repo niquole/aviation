@@ -1,0 +1,190 @@
+body {
+	margin: 0;
+}
+.header {
+	height: 150px;
+	background-color: #274f75;
+	position: relative;
+	box-shadow: 0 1px 6px black;
+}
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+	position: relative;
+}
+
+h1 {
+	font-size:  63px;
+	color: white;
+	padding-top: 48px;
+	margin: 0;
+	float: left;
+	position: absolute;
+	text-shadow: 0 1px 5px black;
+
+}
+
+.email {
+	margin: 0;
+	right: 0;
+	top: 50px;
+	position: absolute;
+	font-size: 14px;
+	color: lightgray;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 0;
+}
+
+nav ul a {
+	text-decoration: none;
+	color: #274f75;
+	font-size: 16px;
+	
+}
+
+.firstnav {
+	text-align: center;
+	background-color: #84bf0e;
+	border-bottom: 3px solid #c80808;
+	max-height: 44px;
+}
+
+.firstli {
+	display: inline-block;
+	padding: 13px 30px;
+	transition: 0.6s;
+}
+
+.firstli:hover {
+	background-color: white;
+	border-bottom: 7px solid #c80808;
+}
+
+main {
+	position: relative;
+	background-image: url(../img/clouds.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0 -70px;
+	z-index: -12;
+}
+
+main #hero {
+	position: relative;
+}
+
+main #hero .herotext {
+	height: 455px;
+	color:#295071;
+	position: relative;
+	text-shadow: 0 1px #fff;
+}
+main #hero .herotext h2 {
+	margin: 0;
+	font-size: 60px;
+	width: 500px;
+	position: absolute;
+	top: 113px;
+}
+
+main #hero .herotext p {
+	font-size: 25px;
+	width: 350px;
+	margin: 0;
+	position: absolute;
+	top: 261px;
+}
+main #hero {
+	position: relative;
+}
+
+main #hero img {
+	position: absolute;
+	bottom: -46px;
+	right: -40px;
+	height: 455px;
+}
+main #topics {
+	height: 690px;
+	box-shadow: 0 0 5px #afb8ba;
+	background-color: #fff;
+	padding: 38px 20px;
+	box-sizing: border-box;
+}
+
+main #topics .articles{
+	width: 67%;
+	float: left;
+	/* font-weight: normal; */
+}
+
+
+main #topics aside {
+	width: 33%;
+	float: right;
+}
+
+main #topics .articles h3 {
+	font-weight: normal;
+	font-size: 29px;
+	font-family: "Arial";
+	margin-bottom: 27px;
+}
+
+main #topics .articles h3 span {
+	font-weight: 700;
+	color: #c80808;
+}
+
+main #topics .articles img {
+	border: 1px solid #c80808;
+	padding: 9px;
+	float: left;
+	margin-right: 20px;
+	/* margin-bottom: 44px; */
+}
+
+main #topics .articles p {
+font-family: "Arial";
+font-size: 14px;
+margin: 40px;
+
+	/* bottom: 29px; */
+}
+
+main #topics .articles h4 span {
+	font-weight: 700;
+	position: relative;
+	color: red;
+}
+
+main #topics .articles h4 {
+	font-weight: normal;
+	font-size: 20px;
+	font-family: "Arial";
+	margin: 0;
+	position: relative;
+	/* top: 44px; */
+}
+div.date {
+	width: 28px;
+	height: 28px;
+	background-color: #274f75;
+	padding: 10px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 14px;
+	font-family: "Arial";
+}
+
+div.day {
+	text-align: right;
+}
+div.month {
+	text-align: center;
+}
