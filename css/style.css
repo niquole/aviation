@@ -31,6 +31,7 @@ h1 {
 	position: absolute;
 	font-size: 14px;
 	color: lightgray;
+	font-family: "Arial";
 }
 
 nav ul {
@@ -44,6 +45,7 @@ nav ul a {
 	text-decoration: none;
 	color: #274f75;
 	font-size: 16px;
+	font-family: "Arial";
 	
 }
 
@@ -51,7 +53,7 @@ nav ul a {
 	text-align: center;
 	background-color: #84bf0e;
 	border-bottom: 3px solid #c80808;
-	max-height: 44px;
+	max-height: 45px;
 }
 
 .firstli {
@@ -70,7 +72,7 @@ main {
 	background-image: url(../img/clouds.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position: 0 -70px;
+	background-position: 0 -72px;
 	z-index: -12;
 }
 
@@ -150,17 +152,15 @@ main #topics .articles img {
 }
 
 main #topics .articles p {
-font-family: "Arial";
-font-size: 14px;
-margin: 40px;
-
-	/* bottom: 29px; */
+	font-family: "Arial";
+	font-size: 14px;
+	margin: 40px;
 }
 
 main #topics .articles h4 span {
 	font-weight: 700;
 	position: relative;
-	color: red;
+	color: #c80808;
 }
 
 main #topics .articles h4 {
@@ -168,8 +168,61 @@ main #topics .articles h4 {
 	font-size: 20px;
 	font-family: "Arial";
 	margin: 0;
-	position: relative;
-	/* top: 44px; */
+	position: absolute;
+	top: 790px;
+}
+
+section aside p {
+	border-bottom: 1px solid black;
+	padding-bottom: 25px;
+	margin-bottom: 15px;
+	/* margin-top: 10px; */
+}
+
+section article p a {
+	color: black;
+}
+.float {
+	float: left;
+}
+
+.width1 {
+	position: absolute;
+	top: 790px;
+	max-width: 263px;
+	left: -10px;
+}
+
+.width1p{	
+	position: absolute;
+	top: 890px;
+	max-width: 263px;
+	left: -10px;
+
+}
+
+.width2 {
+	position: absolute;
+	top: 790px;
+	max-width: 263px;
+	left: 300px;
+}
+
+.width2p {
+	position: absolute;
+	top: 890px;
+	max-width: 263px;
+	left: 300px;
+}
+.aa {
+	position: absolute;
+	left: 330px;
+}
+section aside div h3 {
+	font-weight: 700;
+	color: #c80808;
+	font-size: 29px;
+	font-family: "Arial";
 }
 div.date {
 	width: 28px;
@@ -187,4 +240,99 @@ div.day {
 }
 div.month {
 	text-align: center;
+}
+
+h5 {
+	color:  #274f75;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	position: absolute;
+	left: 680px;
+}
+
+.problematic {
+	position: absolute;
+	top: 585px;
+}
+
+.retarted {
+	position: absolute;
+	top: 750px;
+}
+section aside p a {
+	color: black
+
+}
+aside p {
+	font-family: "Arial";
+	font-size: 14px;
+	max-width: 265px;
+}
+
+
+footer {
+	background-color: #274f75;
+	color: white;
+	border-top: 1px solid red;
+	box-shadow:0 5px 1px black;
+
+	height: 150px
+}
+footer div {
+	font-size: 12px;
+	color: #6a86a0;	
+	position: absolute;
+	right: 200px;
+	padding-top: 100px;
+}
+
+footer nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	color: #6a86a0;
+}
+
+footer nav ul {
+	position: absolute;
+	right: 200px;
+	padding-top:40px;
+	margin: 0;
+	list-style-type: none;
+}
+footer section div span i {
+	font-size: 35px;
+}
+
+footer section div {
+	position: absolute;
+	right: 1250px;
+	padding-top: 40px;
+}
+footer section div ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-align: center;
+	font-size: 0;
+}
+
+footer section div ul li {
+	display: inline-block;
+	font-size: 16px;
+}
+
+footer section div ul li span {
+	color: white;
+	padding: 10px;
+	display: block;
+}
+
+.lastnav {
+	display: inline-block;
+	padding: 5px 3px;
+	border-right: 1px solid #6a86a0;
+
 }
